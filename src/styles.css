@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+.heading {
+  color: blueviolet;
+}
+
+button {
+  padding: 10px;
+  margin: 4px 15px;
+  font-weight: bold;
+  font-size: x-large;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+}
+
+.container {
+  text-align: center;
+  /* background-color: red; */
+  margin: auto;
+}
+
+li {
+  border: 2px solid blueviolet;
+  list-style-type: none;
+  padding: 10px 88px;
+  margin: 10px 16rem;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: large;
+  /* text-align: left; */
+  font-weight: bolder;
+}
+
+.rating {
+  font-weight: bold;
+}
+
+hr {
+  margin: 14px 12rem;
+  color: blue;
+  background-color: blueviolet;
+  padding: 0.2px;
+  text-align: center;
+}
+
+button:hover,
+li:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
